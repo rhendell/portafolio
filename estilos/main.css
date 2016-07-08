@@ -5,12 +5,12 @@ header
 	border: 2px solid
 }
 
-.whoiam 
-{
+.whoiam {
 	background: #46b5ed;
 	opacity: 0.7;
 	padding-bottom: 120px;
-	border: 1px solid olive;
+	border: 1px solid black;
+
 }
 
 .reviews
