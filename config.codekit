@@ -42,6 +42,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/cm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30042,
+		"inputAbbreviatedPath": "\/img\/icons\/cm.png",
+		"outputAbbreviatedPath": "\/img\/icons\/cm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/finalcut.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32120,
+		"inputAbbreviatedPath": "\/img\/icons\/finalcut.png",
+		"outputAbbreviatedPath": "\/img\/icons\/finalcut.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/id.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6520,
+		"inputAbbreviatedPath": "\/img\/icons\/id.png",
+		"outputAbbreviatedPath": "\/img\/icons\/id.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/illustrator.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25981,
+		"inputAbbreviatedPath": "\/img\/icons\/illustrator.png",
+		"outputAbbreviatedPath": "\/img\/icons\/illustrator.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/imovie.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40315,
+		"inputAbbreviatedPath": "\/img\/icons\/imovie.png",
+		"outputAbbreviatedPath": "\/img\/icons\/imovie.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/mkt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8343,
+		"inputAbbreviatedPath": "\/img\/icons\/mkt.png",
+		"outputAbbreviatedPath": "\/img\/icons\/mkt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/ps.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34315,
+		"inputAbbreviatedPath": "\/img\/icons\/ps.png",
+		"outputAbbreviatedPath": "\/img\/icons\/ps.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/ui.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6285,
+		"inputAbbreviatedPath": "\/img\/icons\/ui.png",
+		"outputAbbreviatedPath": "\/img\/icons\/ui.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/ux.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6616,
+		"inputAbbreviatedPath": "\/img\/icons\/ux.png",
+		"outputAbbreviatedPath": "\/img\/icons\/ux.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Logot.png": {
 		"fileType": 32768,
 		"ignore": 0,
