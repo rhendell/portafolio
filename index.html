@@ -3,8 +3,8 @@
 <head>
 	<script src="js/live.js"></script> <!-- Live refresh CSS, HTML and JS in browser. -->
 	<meta charset="UTF-8" />
-	<link rel="stylesheet" href="estilos/normalize.css"/>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
+<!-- 	<link rel="stylesheet" href="estilos/normalize.css"/>
+ -->	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="estilos/main.css"/>
 	
 	
@@ -12,20 +12,22 @@
 </head>
 <body>
 	<header id="header"> <!-- HEADER -->
-		<figure> <!-- LOGO -->
+		<figure class="logo"> <!-- LOGO -->
 			<img src="img/Logot.png" width="50" height="50" alt="  ZV Logo"/>
 		</figure>
-	<nav class="menu">
-		<ul>
-			<li><a href="Casita">Casita</a></li>
-			<li><a href="Solo yo">Solo yo</a></li>
-			<li><a href="Mi trabajo">Mi trabajo</a></li>
-			<li><a href="Escribiendo">Escribiendo</a></li>
-		</ul>
-	</nav>
+		<nav class="menu">
+			<ul>
+				<li><a href="Casita">Casita</a></li>
+				<li><a href="Solo yo">Solo yo</a></li>
+				<li><a href="Mi trabajo">Mi trabajo</a></li>
+				<li><a href="Escribiendo">Escribiendo</a></li>
+			</ul>
+		</nav>
 	</header>
 	<section class="portada">
+		<img src="img/header.jgp" alt="Zoris Velasquez">
 	</section>
+<!-- PRESENTACIÓN -->
 	<section class="presentation">
 		<article class="whoiam">
 			<h1>Zoris Velasquez</h1>
@@ -34,26 +36,27 @@
 				<p>Organizada como si fuera la creadora del Omnifocus, Trello o Asana, responsable y comprometida con cada proyecto en el que participo"</p>
 		</article>	
 	</section>
-		<section class="abilites">
-		<p>"Porque no soy tan joven para conocerlo todo."</p>
-		<p>Oscar Wilde</p>
+<!-- HABILIDADES -->
+	<section class="abilites">
+		<p class="cita">"Porque no soy tan joven para conocerlo todo."</p>
+		<p class="author">Oscar Wilde</p>
 			<div class="abilitiesbox">
-				<div class="abilitiea">
-					<article class="abilitie1"> <!-- abilite1 -->
+				<div class="abilitiea ">
+					<article class="abilitieitem"> <!-- abilite1 -->
 						<img src="IMG/icons/illustrator.png" width="100" alt="Illustrator" />
 						<h3 class="abilitietittle">Adobe Illustrator</h3>
 						<p class="abilitiedesc">"Tengo un manejo de Illustrator nivel Leyenda. soy legenda"</p>
 					</article>	
 				</div>	
-				<div class="abilitieb"> 		
-					<article class="abilitie2"> <!-- abilite2 -->
+				<div class="abilitieb "> 		
+					<article class="abilitieitem"> <!-- abilite2 -->
 						<img src="IMG/icons/ps.png" width="100" alt="Photoshop" />
 						<h3 class="abilitietittle">Adobe Photoshop</h3>
 						<p class="abilitiedesc">"Voy en modo warrior pero aún necesito critales de poder"</p>
 					</article>
 				</div>
-				<div class="abilitiec">
-					<article class="abilitie3"> <!-- abilite3 -->
+				<div class="abilitiec ">
+					<article class="abilitieitem"> <!-- abilite3 -->
 						<img src="IMG/icons/id.png" width="100" alt="InDesign" />
 						<h3 class="abilitietittle">Adobe InDesign</h3>
 						<p class="abilitiedesc">"Diseño como para hacer que se vendan los libros de Cohelo"</p>
@@ -62,22 +65,22 @@
 				</div>
 			</div>
 			<div class="abilitiesbox">
-				<div class="abilitiea">
-					<article class="abilitie4"> <!-- abilite4 -->
+				<div class="abilitiea ">
+					<article class="abilitieitem"> <!-- abilite4 -->
 						<img src="IMG/icons/finalcut.png" width="100" alt="FinalCut" />
 						<h3 class="abilitietittle">FinalCut</h3>
 						<p class="abilitiedesc">"No a lo Steven, tipo pelicula independiente"</p>
 					</article>	
 				</div>	
-				<div class="abilitieb"> 		
-					<article class="abilitie5"> <!-- abilite5 -->
+				<div class="abilitieb "> 		
+					<article class="abilitieitem"> <!-- abilite5 -->
 						<img src="IMG/icons/imovie.png" width="100" alt="iMovie" />
 						<h3 class="abilitietittle">iMovie</h3>
 						<p class="abilitiedesc">"iMoviando Ando"</p>
 					</article>
 				</div>
-				<div class="abilitiec">
-					<article class="abilitie6"> <!-- abilite6 -->
+				<div class="abilitiec ">
+					<article class="abilitieitem"> <!-- abilite6 -->
 						<img src="IMG/icons/mkt.png" width="100" alt="Marketing" />
 						<h3 class="abilitietittle">Marketing</h3>
 						<p class="abilitiedesc">"Claro que te vendo la moto"</p>						
@@ -85,22 +88,22 @@
 				</div>
 			</div>
 			<div class="abilitiesbox">
-				<div class="abilitiea">
-					<article class="abilitie7"> <!-- abilite7 -->
+				<div class="abilitiea ">
+					<article class="abilitieitem"> <!-- abilite7 -->
 						<img src="IMG/icons/cm.png" width="100" alt="CM" />
 						<h3 class="abilitietittle">Comunity Manager</h3>
-						<p class="abilitiedesc">"CUalquier vaina"</p>
+						<p class="abilitiedesc">"Cualquier vaina"</p>
 					</article>	
 				</div>	
-				<div class="abilitieb"> 		
-					<article class="abilitie8"> <!-- abilite8 -->
+				<div class="abilitieb "> 		
+					<article class="abilitieitem"> <!-- abilite8 -->
 						<img src="IMG/icons/ui.png" width="100" alt="UI" />
 						<h3 class="abilitietittle">UI</h3>
 						<p class="abilitiedesc">"Claro que te diseño esa app"</p>
 					</article>
 				</div>
-				<div class="abilitiec">
-					<article class="abilitie9"> <!-- abilite9 -->
+				<div class="abilitiec ">
+					<article class="abilitieitem"> <!-- abilite9 -->
 						<img src="IMG/icons/ux.png" width="100" alt="UX" />
 						<h3 class="abilitietittle">UX</h3>
 						<p class="abilitiedesc">"Eso te lo hago hasta para que lo use Ralph"</p>
@@ -109,19 +112,25 @@
 				</div>
 			</div>
 	</section>
+<!-- TRABAJOS -->	
 	<section class="works">
-		<p>"Los diseños más innovadores reniegan conscientemente de la caja de opciones más normal, cultivando el gusto por el pensamiento equivocado."</p>
-		<p>Marty Neumeier</p>
-		 <img src="img/50anostw.jpg" width="500"/>
+		<div class="worksbox">
+			<div class="text">
+				<p class="cita">"Los diseños más innovadores reniegan conscientemente de la caja de opciones más normal, cultivando el gusto por el pensamiento equivocado."</p>
+				<p class="author">Marty Neumeier</p>
+			</div>
+			<div class="imgwork">
+				<img src="img/50anostw.jpg" width="500"/>	
+			</div>	
+		</div>			 	 
 	</section>
+<!-- COMENTARIOS -->
 	<section class="reviews">
 		<article class="rw"
-			<h2>Sólo hay una cosa en el mundo peor que estar en boca de los demás, y es no estar en boca de nadie.</h2>
-				<p>Oscar Wilde</p>
-				
-				<p> Aunque puedes saber de mi descargando mi resumen y observando mi portafolio no existe nada tan verás como la opinión de increíbles personas con las que he tenido el gusto de hacer equipo. 
-				</p>
-		<div class="contentrw"
+			<h2 class="cita">Sólo hay una cosa en el mundo peor que estar en boca de los demás, y es no estar en boca de nadie.</h2>
+			<p class="author">Oscar Wilde</p>
+			<p> Aunque puedes saber de mi descargando mi resumen y observando mi portafolio no existe nada tan verás como la opinión de increíbles personas con las que he tenido el gusto de hacer equipo. </p>
+		<div class="contentrw">
 			<div class="rs1">
 				<img src=""/>
 				<h3>Rhendell Zambrano</h3>
@@ -166,6 +175,7 @@
 			</div>
 		</div>				
 	</section>
+<!-- FOOTER -->
 	<footer class="footer">
       <div class="contenedor">
         <div class="contacto">

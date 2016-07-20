@@ -1,21 +1,92 @@
+/*HEADER*/
 
+.logo 
+{
+	display: inline-block;
+	margin: 50px;
+}
 
-header
+.menu 
+{
+	display: inline-block;
+}
+
+.header 
 {
 	border: 2px solid
 }
 
-.whoiam 
+/*QUIEN SOY*/
+.whoiam  
 {
 	background: #46b5ed;
 	opacity: 0.9;
 	padding: 100px 100px 100px 100px;
 	/*padding-bottom: 100px;*/
 	border: 1px solid black;
+}
+
+/*HABILIDADES*/
+
+/*.abilities
+{
+	margin: auto;
+	flex-wrap: wrap;
+}*/
+
+.abilitiesbox, .worksbox
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.abilitieitem
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+}
+.abilitietittle
+{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.abilitiedesc
+{
+	display: flex;
+	text-align: center; 
+	border-color: red;
+	align-content: center;
+	margin: 0;
+}
+
+.abilitiea, .abilitieb, .abilitiec
+{
+	width: 250px;
+}
+/*TRABAJOS*/
+
+.worksbox
+{
+
+	display: flex;
+	align-items: flex-end;
 
 }
 
-.reviews
+.text
+{
+	display: flex;
+	text-align:center;
+	border: 3px black;
+}
+
+
+/*COMENTARIOS ACERCA DE MI*/
+.reviews 
 {
 	background: #e7b3f1;
 	opacity: 0.7;
@@ -23,7 +94,7 @@ header
 	border: 1px solid black;
 }
 
-.separador2
+.separador2 
 {
 	background: #46b5ed;
 	opacity: 0.7;
@@ -31,7 +102,7 @@ header
 	border: 1px solid black;
 }
 
-.contacto
+.contacto 
 {
 	background: #e9ff89;
 	opacity: 0.7;
@@ -39,5 +110,9 @@ header
 	border: 1px solid black;
 }
 
+/*Selectores */
 
-
+.menu li 
+{
+	display: inline-block;
+}

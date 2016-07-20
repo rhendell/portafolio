@@ -31,13 +31,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/Header.jpg": {
+	"\/img\/header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 112629,
-		"inputAbbreviatedPath": "\/img\/Header.jpg",
-		"outputAbbreviatedPath": "\/img\/Header.jpg",
+		"initialSize": 1.54072e+06,
+		"inputAbbreviatedPath": "\/img\/header.jpg",
+		"outputAbbreviatedPath": "\/img\/header.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
