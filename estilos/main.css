@@ -1,44 +1,83 @@
-/*HEADER*/
+/*PARAMETROS GENERALES*/
 
-.logo 
+body
 {
-	display: inline-block;
-	margin: 50px;
+	font-family: 'Vollkorn', serif;
+	margin: 0;
+
+}
+
+h1
+{
+	font-size: 35px;
+}
+
+.pbackground
+{
+	background-image: url('../img/header.jpg');
+	background-size: cover;
+	margin: auto;
+	height: 650px;
+
 }
 
 .menu 
 {
 	display: inline-block;
+	position: absolute;
+	right: 0;
 }
 
-.header 
+.menu a
 {
-	border: 2px solid
+	color: black;
+	text-decoration: none;
+}
+
+.menu li
+{
+	display: inline-block;
+	list-style: none;
+	margin: 0 12px;
+}
+
+.fraseprincipal
+{
+	padding-top: 200px;
+	padding-left: 750px;
+	padding-bottom: 100px;
+	padding-right: 50px;
+	font-size: 17px;
+	
 }
 
 /*QUIEN SOY*/
-.whoiam  
+
+.whoiam
 {
-	background: #46b5ed;
-	opacity: 0.9;
-	padding: 100px 100px 100px 100px;
-	/*padding-bottom: 100px;*/
-	border: 1px solid black;
+	padding: 50px 100px 20px 100px;
+}
+
+.button {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 12px;
+  background: #fd324e;
+  background: linear-gradient(to left, #fe344e, #ff7250);
 }
 
 /*HABILIDADES*/
-
-/*.abilities
-{
-	margin: auto;
-	flex-wrap: wrap;
-}*/
 
 .abilitiesbox, .worksbox
 {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	
 }
 
 .abilitieitem
@@ -48,6 +87,7 @@
 	flex-direction: column;
 	padding: 20px;
 }
+
 .abilitietittle
 {
 	margin-top: 3px;
@@ -67,52 +107,8 @@
 {
 	width: 250px;
 }
+
 /*TRABAJOS*/
-
-.worksbox
-{
-
-	display: flex;
-	align-items: flex-end;
-
-}
-
-.text
-{
-	display: flex;
-	text-align:center;
-	border: 3px black;
-}
 
 
 /*COMENTARIOS ACERCA DE MI*/
-.reviews 
-{
-	background: #e7b3f1;
-	opacity: 0.7;
-	padding-bottom: 120px;
-	border: 1px solid black;
-}
-
-.separador2 
-{
-	background: #46b5ed;
-	opacity: 0.7;
-	padding-bottom: 120px;
-	border: 1px solid black;
-}
-
-.contacto 
-{
-	background: #e9ff89;
-	opacity: 0.7;
-	padding-bottom: 120px;
-	border: 1px solid black;
-}
-
-/*Selectores */
-
-.menu li 
-{
-	display: inline-block;
-}
