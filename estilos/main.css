@@ -10,6 +10,15 @@ body
 h1
 {
 	font-size: 35px;
+	margin-bottom: 0;
+}
+
+h4
+{
+	font-size: 14px;
+	padding-top: 0;
+	margin-left: 400px;
+
 }
 
 .pbackground
@@ -38,7 +47,7 @@ h1
 {
 	display: inline-block;
 	list-style: none;
-	margin: 0 12px;
+	margin: 0 15px;
 }
 
 .fraseprincipal
@@ -47,7 +56,7 @@ h1
 	padding-left: 750px;
 	padding-bottom: 100px;
 	padding-right: 50px;
-	font-size: 17px;
+	font-size: 15px;
 	
 }
 
@@ -56,28 +65,111 @@ h1
 .whoiam
 {
 	padding: 50px 100px 20px 100px;
+	font-size: 18px;
+	text-align: justify;
 }
 
-.button {
+/*.button 
+{
   border-radius: 5px;
-  border: none;
-  color: white;
+  border:solid 1px; 
+  color: #0099cc;
   padding: 5px 10px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 12px;
-  background: #fd324e;
-  background: linear-gradient(to left, #fe344e, #ff7250);
+  font-size: 16px;
+  background: white;*/
+}
+
+
+
+/*PRUEBA DE BOTON*/
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 2px 10px;
+  	margin: 20px 10px 10px 0px;
+  	float: left;
+	border-radius: 5px;
+	font-family: 'Pacifico', cursive;
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+
+.red
+{
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+
+.green
+{
+	background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+	text-shadow: 0px -2px #669644;
+}
+
+.yellow
+{
+	background-color: #F2CF66;
+	border-bottom: 5px solid #D1B358;
+	text-shadow: 0px -2px #D1B358;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+/*FIN DE PRUEBA DE BOTON*/
+
+.bt1
+{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	padding-right: 10px;display: inline-block;
+	position: absolute;
+	right: 85px;
 }
 
 /*HABILIDADES*/
 
+.cita
+{
+	padding: 50px;	
+	font-family: cursive;
+	text-align: center;
+	line-height: 15px;
+}
+
+.cita div
+{
+	padding: 10px;
+}
 .abilitiesbox, .worksbox
 {
 	display: flex;
 	justify-content: space-around;
-	flex-wrap: wrap;
-	
+	flex-wrap: wrap; 
+
 }
 
 .abilitieitem
@@ -107,6 +199,14 @@ h1
 {
 	width: 250px;
 }
+
+.abilites
+{
+	margin-top: 100px;
+	padding: 50px 100px 20px 100px;
+	background-color: #e5e5e5;
+}
+
 
 /*TRABAJOS*/
 
